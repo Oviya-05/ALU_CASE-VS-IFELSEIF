@@ -253,8 +253,9 @@ IFELSEIF
 
 #### Fig 11: Timing Report of case and ifelseif construct
 
+<img width="1013" height="350" alt="image" src="https://github.com/user-attachments/assets/90ec4223-2255-41dd-bbb3-d9567d586be3" />
 
-<img width="1600" height="768" alt="image" src="https://github.com/user-attachments/assets/a90af7f9-1ef1-41bc-a1ee-3896d56366ae" />
+
 
 
 #### Fig 12: Tabulate Area,Power and Timing Report Comparision of ALU using case and ifelseif construct
