@@ -253,13 +253,12 @@ IFELSEIF
 
 #### Fig 11: Timing Report of case and ifelseif construct
 
-<img width="1013" height="350" alt="image" src="https://github.com/user-attachments/assets/90ec4223-2255-41dd-bbb3-d9567d586be3" />
-
+<img width="1024" height="448" alt="image" src="https://github.com/user-attachments/assets/4289bfea-8a08-4d1c-b2d6-f9f81291e1de" />
 
 
 
 #### Fig 12: Tabulate Area,Power and Timing Report Comparision of ALU using case and ifelseif construct
 
 ## Result
-The 32-bit ALU implemented using behavioural case statements and if–elseif constructs was successfully verified under Incisive (ncvlog/ncsim) for all tested vectors. Both implementations were functionally correct and synthesizable. Synthesis using Cadence Genus generated gate-level netlists along with area, timing, and power reports.
-A comparative analysis revealed that the case-statement-based ALU resulted in slightly lower area and better timing performance, while the if–elseif-based ALU exhibited higher logic complexity and marginally increased delay due to sequential decision evaluation. Both designs, however, produced identical functional outputs.
+
+The if-elseif construct demonstrated superior Area minimization, resulting in a smaller total area of 9913.876 um^2 and a lower cell count of 1242, suggesting that the synthesis tool achieved better cell optimization for this specific design. Conversely, the case construct resulted in a slightly lower Total Logic Power consumption of 7.501*10^-4, indicating better overall dynamic power efficiency. In summary, the final synthesis showed that the if-elseif design optimized for Area, while the case design optimized for Power.
